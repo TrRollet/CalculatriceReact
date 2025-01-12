@@ -41,11 +41,17 @@ const CalculatorContainer = () => {
 
 	// Fonction pour gérer les opérateurs
   const handleOperator = (op) => {
-    if (previousValue === null) {
+    if (previousValue === null) { // Si pas d'opération en cours
       setPreviousValue(Number(currentValue));
       setCurrentValue("0");
+      setOperator(op);
+    } else {
+      // On calcule le résultat de l'opération précédente
+      const result = OPERATIONS[operator](previousValue, Number(currentValue));
+      setPreviousValue(result);
+      setCurrentValue("0");
+      setOperator(op);
     }
-    setOperator(op);
   };
 
 	// Bouton =

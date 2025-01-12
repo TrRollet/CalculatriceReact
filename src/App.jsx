@@ -27,7 +27,7 @@ function App() {
             TrRollet <FaGithub />
           </a>
 
-          <span className="version">v1.0.0</span>
+          <span className="version">v1.0.1</span>
         </code>
       </footer>
     </ThemeProvider>
