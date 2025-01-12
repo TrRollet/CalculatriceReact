@@ -1,0 +1,21 @@
+.themeToggle {
+  position: absolute;
+  top: -50px;
+  right: 10px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 2px solid currentColor;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.themeToggle:hover {
+  transform: scale(1.1);
+}

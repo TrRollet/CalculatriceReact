@@ -1,0 +1,119 @@
+:root {
+  /* Mode sombre */
+  --color-base-dark: #778577;
+  --color-base-hover-dark: #858f85;
+  --color-base-active-dark: #a3a7a3;
+  --color-operator-dark: #d89e22;
+  --color-operator-hover-dark: #e0a63a;
+  --color-operator-active-dark: #e2b664;
+  --color-equal-dark: #67b826;
+  --color-equal-hover-dark: #7fc93a;
+  --color-equal-active-dark: #9ed664;
+  --color-clear-dark: #e0312b;
+  --color-clear-hover-dark: #e03c36;
+  --color-clear-active-dark: #e25c5a;
+
+  /* Mode clair */
+  --color-base: #a1a1a1;
+  --color-base-hover: #838383;
+  --color-base-active: #666666;
+  --color-operator: #ffc107;
+  --color-operator-hover: #dd9c05;
+  --color-operator-active: #c77f03;
+  --color-equal: #4caf50;
+  --color-equal-hover: #3d8841;
+  --color-equal-active: #2e7531;
+  --color-clear: #f44336;
+  --color-clear-hover: #cc3533;
+  --color-clear-active: #b32828;
+
+  --button-size: 60px;
+  --button-gap: 10px;
+}
+
+/* Styles communs pour tous les boutons */
+.button, .operator, .equal {
+  border: 1px solid #000;
+  color: white;
+  width: var(--button-size);
+  height: var(--button-size);
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:focus,
+.operator:focus,
+.equal:focus {
+  outline: none;
+}
+
+/* Styles spécifiques */
+.button {
+  background-color: var(--color-base);
+}
+
+.button:hover {
+  background-color: var(--color-base-hover);
+}
+
+.button:active {
+  background-color: var(--color-base-active);
+}
+
+.operator {
+  background-color: var(--color-operator);
+}
+
+.operator:hover {
+  background-color: var(--color-operator-hover);
+}
+
+.operator:active {
+  background-color: var(--color-operator-active);
+}
+
+.equal {
+  background-color: var(--color-equal);
+}
+
+.equal:hover {
+  background-color: var(--color-equal-hover);
+}
+
+.equal:active {
+  background-color: var(--color-equal-active);
+}
+
+.clear {
+	background-color: var(--color-clear);
+}
+
+.clear:hover {
+	background-color: var(--color-clear-hover);
+}
+
+.clear:active {
+	background-color: var(--color-clear-active);
+}
+
+/* Thème sombre */
+body[data-theme='dark'] {
+  --color-base: var(--color-base-dark);
+  --color-base-hover: var(--color-base-hover-dark);
+  --color-base-active: var(--color-base-active-dark);
+  --color-operator: var(--color-operator-dark);
+  --color-operator-hover: var(--color-operator-hover-dark);
+  --color-operator-active: var(--color-operator-active-dark);
+  --color-equal: var(--color-equal-dark);
+  --color-equal-hover: var(--color-equal-hover-dark);
+  --color-equal-active: var(--color-equal-active-dark);
+  --color-clear: var(--color-clear-dark);
+  --color-clear-hover: var(--color-clear-hover-dark);
+  --color-clear-active: var(--color-clear-active-dark);
+}
