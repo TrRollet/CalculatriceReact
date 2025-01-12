@@ -1,5 +1,5 @@
-import { useTheme } from '../../hooks/useTheme';
-import styles from './ThemeToggle.module.css';
+import { useTheme } from '@/hooks/useTheme';
+import styles from '@/components/theme-toggle/ThemeToggle.module.css';
 
 const ThemeToggle = () => {
   const { isDark, toggleTheme } = useTheme();

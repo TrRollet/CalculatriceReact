@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styles from './Screen.module.css';
+import styles from '@/components/screen/Screen.module.css';
 
 const Screen = ({ displayValue = "0" }) => {
 	// On limite à 13 caractères pour éviter que l'affichage ne dépasse de l'écran

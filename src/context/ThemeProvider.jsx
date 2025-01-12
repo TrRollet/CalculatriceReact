@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import { ThemeContext } from './ThemeContext';
+import { ThemeContext } from '@/context/ThemeContext';
 
 export const ThemeProvider = ({ children }) => {
   // Sauvegarde de la préférence du thème dans le localStorage pour améliorer l'expérience utilisateur

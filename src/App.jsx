@@ -1,5 +1,5 @@
-import CalculatorContainer from "./components/calculatorContainer"
-import { ThemeProvider } from "./context/ThemeProvider"
+import CalculatorContainer from "@/components/calculatorContainer"
+import { ThemeProvider } from "@/context/ThemeProvider"
 import { FaGithub, FaReact } from 'react-icons/fa';
 
 function App() {

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import Button from "./buttons/Button";
-import Screen from "./screen/Screen";
-import { useTheme } from "../hooks/useTheme";
-import ThemeToggle from "./theme-toggle/ThemeToggle";
+import Button from "@/components/buttons/Button";
+import Screen from "@/components/screen/Screen";
+import { useTheme } from "@/hooks/useTheme";
+import ThemeToggle from "@/components/theme-toggle/ThemeToggle";
 
 const CalculatorContainer = () => {
 	const [currentValue, setCurrentValue] = useState("0");
