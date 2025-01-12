@@ -2,6 +2,10 @@
 
 Une calculatrice moderne construite avec React, supportant les thèmes clair/sombre et les opérations mathématiques de base.
 
+## 🚀 Démo
+
+Testez la calculatrice en ligne : [Calculatrice React](https://calculatrice-react-nu.vercel.app)
+
 ## 🛠️ Technologies
 
 - React 18
